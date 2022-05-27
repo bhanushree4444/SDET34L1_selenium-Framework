@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="com.vtiger.Organization.CreateOrganizationTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforClass"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforSuite1Test"/>
+          <include name="createOrganizationTest"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.vtiger.Organization.CreateOrganizationTest -->
+      <class name="com.vtiger.Organization.CreateOrgWithTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforClass"/>
+          <include name="createOrgWithDdTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforSuite1Test"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.vtiger.Organization.CreateOrgWithTest -->
+      <class name="com.PracticeOld.CreateContactTestPropTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforClass"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforSuite1Test"/>
+          <include name="createContactTestPropTest"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.PracticeOld.CreateContactTestPropTest -->
+      <class name="com.vtiger.contact.CreateContactsWithOrgaNameTest">
+        <methods>
+          <include name="createContactsWithOrgaNameTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforClass"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforSuite1Test"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.vtiger.contact.CreateContactsWithOrgaNameTest -->
+      <class name="com.vtiger.createCampaigns.CreateCampaignWithProductTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforClass"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforSuite1Test"/>
+          <include name="createCampaignwithProductTest"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.vtiger.createCampaigns.CreateCampaignWithProductTest -->
+      <class name="com.vtiger.createProduct.CreateProductTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforClass"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforSuite1Test"/>
+          <include name="createProductPropTest"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.vtiger.createProduct.CreateProductTest -->
+      <class name="com.vtiger.documents.CreateDocumentsTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforClass"/>
+          <include name="documentsTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforSuite1Test"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.vtiger.documents.CreateDocumentsTest -->
+      <class name="com.vtiger.contact.CreateContacttTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforClass"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforSuite1Test"/>
+          <include name="createContacttTest"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.vtiger.contact.CreateContacttTest -->
+      <class name="com.vtiger.createCampaigns.CreateContactTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforClass"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforSuite1Test"/>
+          <include name="createContactPomTest"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.vtiger.createCampaigns.CreateContactTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

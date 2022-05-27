@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 13.399 s <<< FAILURE! - in TestSuite
+beforeMethod(com.vtiger.createProduct.CreateProductTest)  Time elapsed: 12.566 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+
