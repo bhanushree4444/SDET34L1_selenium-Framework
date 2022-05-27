@@ -9,7 +9,7 @@ import java.sql.Statement;
 import com.mysql.cj.jdbc.Driver;
 
 public class DataBaseTest {
-
+// Database test
 	public static void main(String[] args) throws SQLException {
       Connection connection=null;
     try {
